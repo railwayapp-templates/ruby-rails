@@ -1,24 +1,34 @@
-# README
+---
+title: Rails Starter
+description: A Rails starter app using a PostgreSQL database
+tags:
+  - ruby
+  - rails
+  - postgresql
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails Starter Example
 
-Things you may want to cover:
+This is a [Ruby on Rails](https://rubyonrails.org/) starter app that connects to a Railway Postgres database and supports [Action Cable](https://guides.rubyonrails.org/action_cable_overview.html).
 
-* Ruby version
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Frails-starter&plugins=postgresql)
 
-* System dependencies
+## ✨ Features
 
-* Configuration
+- Ruby
+- Rails
+- Postgres
+- Redis
 
-* Database creation
+## 💁‍♀️ How to use
 
-* Database initialization
+- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
+- Connect to your Railway project with `railway link`
+- Install Ruby requirements `bundle install`
+- Migrate the database `railway run rake db:migrate`
+- Run Rails `railway run bin/rails server`
 
-* How to run the test suite
+## 📝 Notes
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app was generated with the `rails new` command. Read more about Rails on
+their [official website](https://rubyonrails.org/)
